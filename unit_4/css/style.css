@@ -2,9 +2,12 @@ body {
 	background-color: #EF6FFF;
 }
 h1 {
-  font-family: 'Rancho', sans-serif;
+  font-family: 'Rancho', cursive, sans-serif;
 }
 h2 #slogan{
-	font-family: 'Rock-Salt', serif;
+	font-family: 'Rock Salt', cursive, serif;
 	font-style: italic;
+}
+p, li{
+	font-family: 'Alice', serif
 }
