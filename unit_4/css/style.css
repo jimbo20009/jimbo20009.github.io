@@ -1,13 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Neuton:400,700|Rock+Salt);
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
 body {
-	background-color: #EF6FFF;
+	background-color:#F5DAFF;
 }
+
 h1 {
-  font-family: 'Rancho', cursive, sans-serif;
+  	font-size:40px;
+  	font-family:"Neuton", serif; 
+  	font-weight:700; 
+  	text-align:center;
 }
-h2 #slogan{
-	font-family: 'Rock Salt', cursive, serif;
-	font-style: italic;
+
+h2 {
+	font-size:36px;
+	font-family:"Rock+Salt", cursive, serif;
+	font-style:italic;
+	text-align:center;
 }
+
 p, li{
-	font-family: 'Alice', serif
+	font-size: 20px;
+	font-family: "Neuton", serif; 
+	font-weight: 400;
+}
+
+img{
+	display: inline-block; 
 }
