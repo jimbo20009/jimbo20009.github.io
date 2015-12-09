@@ -2,46 +2,67 @@
 @import url(https://fonts.googleapis.com/css?family=Rock+Salt);
 
 header{
-	background-color:#FFF
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
+	background-color:black;
+}
+
+#DCLS {
+	display:block;
+	width:694px;
+	margin: 0 auto;
+	border: 0;
+	padding: 0;
 }
 
 body {
 	background-color:#F5DAFF;
 }
 
-#wrapper {
-	width: 960px;
-	margin: 0 auto;
+.wrapper {
+	width:800px;
+	margin:0 auto;
+}
+
+nav {
+	display:inline-block;
+	margin: 5px auto;
 }
 
 h1 {
-  	font-size:40px;
+  	font-size:32px;
   	font-family:"Neuton", serif; 
   	font-weight:700; 
   	text-align:center;
+  	line-height: 1.2
 }
 
 h2 {
+	color:#6D00B5;
 	font-size:24px;
 	font-family:"Rock Salt", cursive, serif;
 	font-style:italic;
 	text-align:center;
+	line-height: 1.2
 }
 
 p, li{
-	font-size: 20px;
-	font-family: "Neuton", serif; 
-	font-weight: 400;
-	padding: 10px;
+	font-size:20px;
+	font-family:"Neuton", serif; 
+	font-weight:400;
 }
 
 ul {
-	padding-left: 40px;
+	padding-left:40px;
 }
 
-img{
-	display: inline-block; 
+
+.pic {
+	padding:3px; 
+	border:3px solid;
+	border-color:#6D00B5;
+	margin:10px;
+}
+
+#quote {
+	color:#6D00B5;
+	font-style:italic;
 }
