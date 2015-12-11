@@ -2,7 +2,9 @@
 @import url(https://fonts.googleapis.com/css?family=Rock+Salt);
 
 header{
-	background-color:black;
+	background-color:#FFED74;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 #DCLS {
@@ -18,21 +20,33 @@ body {
 }
 
 .wrapper {
-	width:850px;
+	background-color:#FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+    width:800px;
 	margin:0 auto;
 }
 
+section {
+	background-color:#E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
 nav {
-	display:inline-block;
+	background-color:#E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+    display:inline-block;
 	margin: 5px auto;
 }
 
 h1 {
-  	font-size:32px;
+  	color:#993333;
+  	font-size:36px;
   	font-family:"Neuton", serif; 
   	font-weight:700; 
   	text-align:center;
-  	line-height: .9
 }
 
 h2 {
@@ -41,7 +55,7 @@ h2 {
 	font-family:"Rock Salt", cursive, serif;
 	font-style:italic;
 	text-align:center;
-	line-height: .9
+	line-height: .8
 }
 
 p, li{
@@ -50,19 +64,35 @@ p, li{
 	font-weight:400;
 }
 
-ul {
-	padding-left:40px;
-}
-
 
 .pic {
 	padding:3px; 
 	border:3px solid;
-	border-color:#6D00B5;
+	border-color:#6d4cb5;
 	margin:10px;
+}
+
+ul {
+	padding-left:30px;
+	line-height:1.2;
+}
+
+#address {
+	margin-left:80px;
+	font-size:16px;
+	color:#6D00B5;
 }
 
 #quote {
 	color:#6D00B5;
 	font-style:italic;
+	margin-left:15px;
+}
+
+footer {
+	background-color:#FF957E;
+    border: 1px black solid;
+    padding: 20px;
+    display:inline;
+	font-size:10px;
 }
