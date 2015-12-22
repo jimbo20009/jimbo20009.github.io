@@ -174,14 +174,11 @@ li {
 }
 
 #callers {
-	display: block;
 	float: left;
 	width: 60%;
 }
 
 .callerbox {
-	float: left;
-	display: inline;
 	width: 92%;
 	margin-right: 8%;
 	margin-bottom: .8rem;
@@ -347,18 +344,23 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+	#callers {
+		float: none;
+		width: 100%;
+	}
+
+	.callerbox {
+		display: block;
+	}
+
 	#dancers, #jazzy, #floor, #icecream {
 		float: none;
-		width: 300px;
+		width: 100%;
 		margin: 0 0 1.5rem 1rem;
 	}	
 
 	#bell {
 		display: none;
-	}
-
-	#callerbox {
-		width: 100%;
 	}
 }
 
