@@ -250,7 +250,7 @@ li {
 #floor {
 	float: right;
 	width: 55%;
-	margin: 1em 0 1em 1.5em;
+	margin: 1.5rem 0 1em 1.5rem;
 }
 
 #floor img {
@@ -347,26 +347,29 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
-	.hide_image {
-		display: none;
-	}	
-
-	.remove_float {
-		clear: both;
-		display: block;
+	#dancers, #jazzy, #floor, #icecream {
+		float: none;
 		width: 300px;
 		margin: 0 0 1.5rem 1rem;
+	}	
+
+	#bell {
+		display: none;
+	}
+
+	#callerbox {
+		width: 100%;
 	}
 }
 
-@media (max-width: 650px) {
+@media screen and (max-width: 650px) {
 	#main {
 		width: 95%;
 		margin: 0 auto;
 	}
 }
 
-@media (min-width: 925px) {
+@media screen and (min-width: 925px) {
 	#main {
 		width: 800px;
 		margin: 0 auto;
