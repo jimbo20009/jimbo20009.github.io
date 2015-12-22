@@ -43,8 +43,8 @@ nav a {
   	text-transform: uppercase;
 }
 
-main {
-	width: 80%;
+#main {
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -65,18 +65,40 @@ h1 {
   	text-align: center;
   	text-shadow: .1rem .1rem #CF7D98;
   	line-height: 1.2em;
-  	margin: 1.5rem 0 0 0;
+  	margin: .5em 0 0 0;
 }
 
 h2 {
 	color: #6D00B5;
 	font-size: 1.6rem;
 	font-family: "Rock Salt", cursive, serif;
+	line-height: 1.3em;
 	font-style: italic;
 	text-align: center;
-	/*padding: 1rem;*/
-	margin: 0 0 .8rem 0;
+	margin: .5em 0 .8em 0;
 }
+
+#dancers {
+	width: 60%;
+	float: right;
+	margin: 0 0 1.5rem 1rem;
+}
+#dancers img {
+	width: 100%;
+}
+
+#dancers figcaption {
+	width: 100%;
+	font-size: 1.1rem;
+	font-family: "Rock Salt", cursive, serif; 
+	color: #6D00B5;
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+	line-height: 1.15em;
+	padding-top: .3em;
+}
+	
 
 p {
 	font-size: 1.25rem;
@@ -129,6 +151,10 @@ li {
 	font-weight: 800;
 }
 
+.nowrap {
+	white-space: nowrap;
+}
+
 .more {
 	color: #6D00B5;
   	font-size: 1.25rem;
@@ -144,12 +170,7 @@ li {
 	border: .1rem solid;
 	border-color: #6d4cb5;
 	box-shadow: .4rem .4rem .2rem #C4AEE1;
-}
-
-#dance_gif {
-	width: 60%;
-	float: right;
-	margin: 0 0 1.5rem 1rem;
+	margin: .5rem;
 }
 
 #callers {
@@ -188,6 +209,22 @@ li {
 	width: 40%; 
 }
 
+#jazzy img {
+	width: 100%;
+}
+
+#jazzy figcaption {
+	width: 100%;
+	font-size: 1.1rem;
+	font-family: "Rock Salt", cursive, serif; 
+	color: #6D00B5;
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+	line-height: 1.15em;
+	padding-top: .3em;
+}
+
 #hotel {
 	float: left;
 	width: 40%;
@@ -200,37 +237,35 @@ li {
 
 #hotel figcaption {
 	width: 90%;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	font-family: "Neuton", serif; 
 	color: #6D00B5;
 	font-weight: 500;
 	font-style: italic;
 	text-align: center;
 	line-height: 1.15em;
-	padding-top: .3em;
-
+	padding-left: .5em;
 }
 
 #floor {
 	float: right;
-	width: 50%;
-	margin: 1.5rem 0 .5rem 3rem;
+	width: 55%;
+	margin: 1.5rem 0 1em 1.5rem;
 }
 
-#quote {
-	float:right;
-	width: 45%;
-	margin: 1.5rem;	
+#floor img {
+	width: 95%;
 }
 
-#quote p {
-	font-size: 1.3rem;
+#floor figcaption {
+	font-size: 1.4rem;
 	font-family: "Neuton", serif; 
 	font-weight: 500;
 	color: #6D00B5;
 	font-style: italic;
 	text-align: center;
 	line-height: 1.2em;
+	margin-bottom: 1.5em;
 }
 
 #bell {
@@ -260,6 +295,7 @@ li {
 
 #sessions li {
 	font-size: 1.1rem;
+	color: #6D00B5;
 	font-style: italic;
 	line-height: 1em;
 	padding-left: .1em;
@@ -276,7 +312,7 @@ footer {
 	background-color: black;
 	width: 100%;
 	display: block;
-	margin-top: 1rem;
+	margin-top: 2rem;
 }
 
 #footsie {
@@ -288,6 +324,14 @@ footer {
 	margin: .5rem auto 0 auto;
 }
 
+#dcls_logo {
+	margin-right: 3rem;
+}
+
+#iagsdc {
+	margin-left: 3rem;
+}
+
 #club {
 	display: inline-block;
 	background-color: black;
@@ -295,10 +339,40 @@ footer {
 	color: white;
 	font-size: .8rem;
 	text-align: center;
-	margin: 1.2rem;
 }
 
 #website {
 	color: #F5DAFF;
 	font-weight: 700;
 }
+
+@media screen and (max-width: 500px) {
+	#dancers, #jazzy, #floor, #icecream {
+		float: none;
+		width: 300px;
+		margin: 0 0 1.5rem 1rem;
+	}	
+
+	#bell {
+		display: none;
+	}
+
+	#callerbox {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	#main {
+		width: 95%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 925px) {
+	#main {
+		width: 800px;
+		margin: 0 auto;
+	}
+}
+
