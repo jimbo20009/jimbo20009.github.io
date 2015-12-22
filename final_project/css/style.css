@@ -346,11 +346,13 @@ footer {
 @media screen and (max-width: 500px) {
 	#callers {
 		float: none;
+		display: block;
 		width: 100%;
 	}
 
 	.callerbox {
 		display: block;
+		width: 100%;
 	}
 
 	#dancers, #jazzy, #floor, #icecream {
