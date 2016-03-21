@@ -351,6 +351,7 @@ footer {
 	}
 
 	.callerbox {
+		float: none;
 		display: block;
 		width: 100%;
 	}
